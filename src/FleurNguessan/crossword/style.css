@@ -1,0 +1,42 @@
+/* Styles pour la classe CrosswordSquare */
+
+/* Style de base pour les carrés de mots croisés */
+.crossword-square {
+    -fx-background-color: white; /* Couleur de fond par défaut */
+    -fx-text-fill: black; /* Couleur du texte */
+    -fx-border-color: black; /* Couleur de la bordure lorsqu'il est sélectionné */
+    -fx-border-width: 0.5px; /* Largeur de la bordure lorsqu'il est sélectionné */
+    -fx-font-size: 30px;
+    -fx-alignment: center;
+}
+
+/* Style pour les carrés noirs */
+.crossword-square.black {
+    -fx-background-color: black; /* Couleur de fond noire */
+}
+
+/* Style lorsque le carré est sélectionné */
+.crossword-square:focused {
+    -fx-border-color: blue; /* Couleur de la bordure lorsqu'il est sélectionné */
+    -fx-border-width: 5px; /* Largeur de la bordure lorsqu'il est sélectionné */
+}
+
+/* Style pour le texte lorsqu'il est correct */
+.crossword-square.correct {
+    -fx-background-color: lightgreen; /* Couleur de fond lorsqu'il est correct */
+}
+
+/* Style pour le curseur lorsqu'il survole un carré non noir */
+.crossword-square:hover {
+    -fx-cursor: hand; /* Curseur de la main lorsqu'il survole un carré non noir */
+}
+
+.crossword-square.black:hover {
+    -fx-cursor: default; /* Curseur de la main lorsqu'il survole un carré non noir */
+}
+
+.current .list-cell:filled:selected {
+    -fx-background-color:  #fa0059; /* Couleur de fond lorsqu'il est correct */
+    -fx-text-fill: white; /* Couleur du texte */
+    
+}

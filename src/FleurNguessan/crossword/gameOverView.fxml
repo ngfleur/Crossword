@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="50.0" layoutY="205.0" prefHeight="90.0" prefWidth="500.0" style="-fx-background-color: #fa0059;" text="     MOT CROISE REUSSI  " textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font></Label>
+   </children>
+</Pane>
